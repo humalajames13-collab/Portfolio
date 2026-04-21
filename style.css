@@ -18,16 +18,15 @@ nav button {
   padding: 10px 20px;
   margin: 0 5px;
   font-size: 16px;
-  cursor: pointer;
+ 
 }
 nav button.active {
   background-color: #333;
   font-weight: bold;
 }
 .frame {
-  display: none;
   padding: 40px;
-  height: calc(100vh - 70px);
+  height: (100px - 70px); 
   box-sizing: border-box;
   position: relative;
 }
@@ -73,7 +72,7 @@ nav button.active {
 .subtitle {
   font-size: 24px;
   font-style: italic;
-  color: #e0e0e0;
+  color: black;
   margin-bottom: 30px;
 }
 .dot {
@@ -81,7 +80,7 @@ nav button.active {
 }
 .project-grid {
   display: flex;
-  flex-wrap: wrap;
+ 
   gap: 20px;
   justify-content: center;
 }
@@ -107,4 +106,39 @@ nav button.active {
   padding: 20px;
   max-width: 180px;
   text-align: center;
+}
+.title {
+ animation-name: slide-left-right;
+  animation-duration: 4s; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+
+}
+@keyframes slide-left-right {
+
+  0% {
+    transform: translateX(0); 
+  }
+  
+  100% {
+    transform: translateX(200px); 
+  }
+}
+
+.project-item {
+  width: 1000px;
+}
+
+.project-item img {
+  width: 100%;
+  height: 200px;
+ ;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;   
+  gap: 20px;
+  ;
+  
 }

@@ -1,18 +1,28 @@
-<body>
-      <header>
-        <nav>
-          <button class="navBtn active" onclick="switchFrame('home')">Home</button>
-          <button class="navBtn" onclick="switchFrame('about')">About</button>
-          <button class="navBtn" onclick="switchFrame('project')">Project</button>
-        </nav>
-      </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href = "style.css">  
 
+</head>
+<body>
+  
+      <header>
+       <ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="project.html">Project</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+      </header>
+      
       <div id="home" class="frame active">
         <div class="box home-box">
           <div class="subtitle">Welcome to my</div>
           <div class="title">Web Design Portfolio</div>
           <div class="profile-square">
-            <img src="https://via.placeholder.com/200" alt="Profile Picture">
+            
           </div>
           <div class="subtitle">Hi, I'm <strong>James Humala</strong>, a passionate web designer from ITHS.</div>
           <p style="font-size: 16px; max-width: 500px; margin-top: 10px;">
@@ -20,40 +30,7 @@
           </p>
         </div>
       </div>
+      <script src="style.js"></script>
 
-      <div id="about" class="frame">
-        <div class="box">
-          <div class="about-grid">
-            <div class="about-box">I am 15 years old.</div>
-            <div class="about-box">I play sports like soccer, volleyball, and wrestling.</div>
-            <div class="about-box">I am always working and improving.</div>
-            <div class="about-box">I know JS, CSS, and HTML code.</div>
-            <div class="about-box">I am a student at ITHS and part of the Web Design Academy.</div>
-          </div>
-        </div>
-      </div>
-
-      <div id="project" class="frame">
-        <div class="box">
-          <div class="project-grid">
-            <div class="project-item">
-              <div>CSS Style & Transform Art Gallery</div>
-  <img src="file:///Users/student/Desktop/Screenshot%202025-10-21%20at%209.07.32%E2%80%AFAM.png" alt="Art Gallery" width="50px" height="50px">
-            </div>
-            <div class="project-item">
-              <div>Sport Quiz</div>
-              <img src="https://via.placeholder.com/150/00ffcc" alt="Sport Quiz">
-            </div>
-            <div class="project-item">
-              <div>Top 10 Soccer Players</div>
-              <img src="https://via.placeholder.com/150" alt="Soccer Players">
-            </div>
-            <div class="project-item">
-              <div>Input Fields</div>
-              <img src="https://via.placeholder.com/150" alt="Input Fields">
-            </div>
-            <div class="project-item">
-              <div>Climate Change</div>
-              <img src="https://via.placeholder.com/150" alt="Climate Change">
-            </div>
-  
+</body>
+</html>
